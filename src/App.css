@@ -7,18 +7,22 @@
   background: linear-gradient(45deg,  #2BC0E4, #EAECC6 );
   overflow: hidden;
 }
+/* HEADER */
 .App-header {
   background-color: rgba(54, 54, 54, 0);
   height: 65px;
   padding: 20px;
   color: #feffff;
+  display: flex;
+  justify-content: space-around
 }
 .App-title {
   font-size: 1.5em;
   text-shadow: 2px 2px 2px #61616194;
+  width: 20vw;
 }
-.App-intro {
-  font-size: large;
+.placeHolder{
+  width: 20vw;
 }
 .content{
   background: #feffff;
